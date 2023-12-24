@@ -24,8 +24,7 @@ app = {                      # REQUIRED dict, must be named 'app'
         (0x0A003F, 'New.B', ['git checkout -b ']),
         (0x0A003F, 'Rnme.B', ['git branch -M ']),
         # 4th row ----------
-        (0x0D001F, 'G.Hub', [Keycode.CONTROL,
-                             'n', -Keycode.COMMAND, 'github.com\n']),
+        (0x0D001F, 'G.Hub', [Keycode.CONTROL, 'n', -Keycode.COMMAND, 'github.com\n']),
         (0x0D001F, '', []),
         (0x0D001F, '', []),  # Hack-a-Day in new win
         # Encoder button ---
